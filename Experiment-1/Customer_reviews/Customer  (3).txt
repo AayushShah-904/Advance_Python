@@ -1,0 +1,20 @@
+I1J2K3 PROD100001 2024-03-01 4 Very satisfied with the performance.
+M4N5O6 PROD100002 2024-03-06 5 An absolute joy to use five stars!
+Q7R8S9 PROD100003 2024-03-11 3 It's fine but could be improved.
+U0V1W2 PROD100004 2024-03-16 5 So glad I made this purchase.
+Y3Z4A5 PROD100005 2024-03-21 2 Didn't last long quality is questionable.
+C6D7E8 PROD100006 2024-03-26 4 Works efficiently and is well-designed.
+G9H0I1 PROD100007 2024-03-31 1 Never worked complete dud.
+K2L3M4 PROD100008 2024-04-05 5 Exceeded all expectations truly remarkable.
+O5P6Q7 PROD100001 2024-04-10 3 Just okay nothing groundbreaking.
+S8T9U0 PROD100002 2024-04-15 4 Good product for everyday use.
+W1X2Y3 PROD100003 2024-04-20 2 Too complicated to set up.
+A4B5C6 PROD100004 2024-04-25 5 A true lifesaver so convenient!
+E7F8G9 PROD100005 2024-04-30 3 Middle of the road could be better.
+I0J1K2 PROD100006 2024-05-05 1 Extremely poor performance.
+M3N4O5 PROD100007 2024-05-10 5 Absolutely essential a fantastic buy.
+Q6R7S8 PROD100008 2024-05-15 4 Performs well happy with the purchase.
+U9V0W1 PROD100001 2024-05-20 2 Fragile broke after a few uses.
+Y2Z3A4 PROD100002 2024-05-25 5 Impressed with the durability and features.
+C5D6E7 PROD100003 2024-05-30 3 Not bad but not amazing either.
+G8H9I0 PROD100004 2024-06-04 4 Reliable and easy to maintain.

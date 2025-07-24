@@ -1,0 +1,20 @@
+M1N2O3 PROD100001 2024-02-20 4 Pretty solid good value.
+Q4R5S6 PROD100002 2024-02-25 5 Couldn't ask for a better product!
+U7V8W9 PROD100003 2024-03-02 3 It's decent but not a game changer.
+Y0Z1A2 PROD100004 2024-03-07 5 Simply amazing highly recommend.
+C3D4E5 PROD100005 2024-03-12 2 Quickly became faulty disappointed.
+G6H7I8 PROD100006 2024-03-17 4 Good features for the price point.
+K9L0M1 PROD100007 2024-03-22 1 Totally defective waste of money.
+O2P3Q4 PROD100008 2024-03-27 5 Revolutionized my workflow thank you!
+S5T6U7 PROD100001 2024-04-01 3 Neither outstanding nor terrible.
+W8X9Y0 PROD100002 2024-04-06 4 User-friendly and efficient.
+A1B2C3 PROD100003 2024-04-11 2 Short battery life very inconvenient.
+E4F5G6 PROD100004 2024-04-16 5 So glad I invested in this.
+I7J8K9 PROD100005 2024-04-21 3 Pretty standard nothing exciting.
+M0N1O2 PROD100006 2024-04-26 1 This product is a scam.
+Q3R4S5 PROD100007 2024-05-01 5 My new favorite truly exceptional.
+U6V7W8 PROD100008 2024-05-06 4 Performs consistently well under pressure.
+Y9Z0A1 PROD100001 2024-05-11 2 Fragile components broke easily.
+C2D3E4 PROD100002 2024-05-16 5 Incredibly versatile and effective.
+G5H6I7 PROD100003 2024-05-21 3 Just what I needed no more no less.
+K8L9M0 PROD100004 2024-05-26 4 Strong and reliable good investment.

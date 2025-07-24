@@ -1,0 +1,20 @@
+A1B2C3 PROD100001 2024-03-15 4 Great product really happy with the purchase.
+D4E5F6 PROD100002 2024-03-20 5 Excellent quality and fast shipping. Highly recommend!
+G7H8I9 PROD100003 2024-03-25 3 It's okay but I expected more for the price.
+J0K1L2 PROD100004 2024-04-01 5 Absolutely love it! Exceeded my expectations.
+M3N4O5 PROD100005 2024-04-05 2 Disappointed the item broke after a week.
+P6Q7R8 PROD100006 2024-04-10 4 Good value for money would buy again.
+S9T0U1 PROD100007 2024-04-15 1 Terrible product completely useless.
+V2W3X4 PROD100008 2024-04-20 5 Perfect for my needs very satisfied.
+Y5Z6A7 PROD100001 2024-04-25 3 Average performance nothing special.
+B8C9D0 PROD100002 2024-05-01 4 Works as described happy with the functionality.
+E1F2G3 PROD100003 2024-05-05 5 Fantastic! Couldn't ask for anything more.
+H4I5J6 PROD100004 2024-05-10 2 Not durable already showing signs of wear.
+K7L8M9 PROD100005 2024-05-15 4 Pretty good serves its purpose well.
+N0O1P2 PROD100006 2024-05-20 1 Worst purchase ever complete waste of money.
+Q3R4S5 PROD100007 2024-05-25 5 A must-have! So glad I bought this.
+T6U7V8 PROD100008 2024-06-01 3 Decent but there are better options out there.
+W9X0Y1 PROD100001 2024-06-05 4 Solid performance for the price.
+Z2A3B4 PROD100002 2024-06-10 2 Subpar quality regretting this purchase.
+C5D6E7 PROD100003 2024-06-15 5 Truly impressive highly satisfied with this product.
+F8G9H0 PROD100004 2024-06-20 3 It's alright nothing to write home about.

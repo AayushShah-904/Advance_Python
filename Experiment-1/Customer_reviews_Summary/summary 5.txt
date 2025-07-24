@@ -1,0 +1,7 @@
+Report of Products
+Successfully extracted 20 valid lines and 0 invalid lines.
+Total numbers of reviews are 20
+Top 3 products with highest average rating:
+PROD100002: Average Rating = 4.67
+PROD100004: Average Rating = 4.67
+PROD100008: Average Rating = 4.50
