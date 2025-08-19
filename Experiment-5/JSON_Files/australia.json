@@ -1,0 +1,16 @@
+{
+    "country": "Australia",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 95000,
+        "new": 400
+    },
+    "deaths": {
+        "total": 1200,
+        "new": 5
+    },
+    "recovered": {
+        "total": 90000,
+        "new": 380
+    }
+}

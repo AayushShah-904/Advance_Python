@@ -1,0 +1,16 @@
+{
+    "country": "India",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 450000,
+        "new": 3200
+    },
+    "deaths": {
+        "total": 5200,
+        "new": 45
+    },
+    "recovered": {
+        "total": 420000,
+        "new": 3100
+    }
+}

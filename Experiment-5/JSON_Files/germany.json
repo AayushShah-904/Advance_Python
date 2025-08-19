@@ -1,0 +1,16 @@
+{
+    "country": "Germany",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 150000,
+        "new": 900
+    },
+    "deaths": {
+        "total": 3100,
+        "new": 15
+    },
+    "recovered": {
+        "total": 140000,
+        "new": 870
+    }
+}

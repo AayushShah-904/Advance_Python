@@ -1,0 +1,16 @@
+{
+    "country": "South Africa",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 85000,
+        "new": 350
+    },
+    "deaths": {
+        "total": 1900,
+        "new": 6
+    },
+    "recovered": {
+        "total": 80000,
+        "new": 340
+    }
+}

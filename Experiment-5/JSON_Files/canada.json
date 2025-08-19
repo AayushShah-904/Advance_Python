@@ -1,0 +1,16 @@
+{
+    "country": "Canada",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 120000,
+        "new": 650
+    },
+    "deaths": {
+        "total": 2200,
+        "new": 12
+    },
+    "recovered": {
+        "total": 110000,
+        "new": 600
+    }
+}

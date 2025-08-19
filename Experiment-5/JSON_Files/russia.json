@@ -1,0 +1,16 @@
+{
+    "country": "Russia",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 280000,
+        "new": 1800
+    },
+    "deaths": {
+        "total": 7200,
+        "new": 30
+    },
+    "recovered": {
+        "total": 260000,
+        "new": 1700
+    }
+}

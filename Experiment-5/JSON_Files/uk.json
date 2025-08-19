@@ -1,0 +1,16 @@
+{
+    "country": "UK",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 210000,
+        "new": 1200
+    },
+    "deaths": {
+        "total": 9500,
+        "new": 40
+    },
+    "recovered": {
+        "total": 200000,
+        "new": 1100
+    }
+}

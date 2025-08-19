@@ -1,0 +1,16 @@
+{
+    "country": "Japan",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 100000,
+        "new": 500
+    },
+    "deaths": {
+        "total": 1800,
+        "new": 8
+    },
+    "recovered": {
+        "total": 95000,
+        "new": 480
+    }
+}

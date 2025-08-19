@@ -1,0 +1,16 @@
+{
+    "country": "USA",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 680000,
+        "new": 4500
+    },
+    "deaths": {
+        "total": 15000,
+        "new": 70
+    },
+    "recovered": {
+        "total": 640000,
+        "new": 4200
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "country": "Brazil",
+    "date": "2025-08-18",
+    "confirmed_cases": {
+        "total": 320000,
+        "new": 2100
+    },
+    "deaths": {
+        "total": 8500,
+        "new": 35
+    },
+    "recovered": {
+        "total": 300000,
+        "new": 2000
+    }
+}
