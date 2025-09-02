@@ -6,7 +6,13 @@ import matplotlib.pyplot as plt
 class InvalidInputDataError(Exception):
     pass
 
+class DiskSpaceFullError(Exception):
+    pass
+
 pattern = r'^[a-zA-Z \n]+$'
+
+
+
 
 def process_file(filename):
     try:
@@ -39,7 +45,21 @@ def process_file(filename):
         print("File not found.")
     except InvalidInputDataError as e:
         print(f"InvalidInputDataError: {e}")
+    except DiskSpaceFullError as e:
+        print(f"DiskSpaceFullError: {e}")
+
+
+def save_wordcloud_image(word_cloud, output_file):
+    try:
+        word_cloud.to_file(output_file)
+    except OSError as e:
+        # errno 28 corresponds to no space left on device
+        if e.errno == 28:
+            raise DiskSpaceFullError("Disk space is full. Cannot write the output file.") from e
+        else:
+            raise
 
 if __name__ == "__main__":
     filename = "file.txt" 
+    output_file = "file.txt"
     process_file(filename)
