@@ -1,0 +1,7 @@
+2025-09-07 20:00:04,630 - root - INFO - User alice created successfully.
+2025-09-07 20:00:04,630 - root - INFO - User alice and password password123 added to users.txt file.
+2025-09-07 20:00:04,630 - root - WARNING - Password for user bob is too short.
+2025-09-07 20:00:04,630 - root - INFO - User bob and password pass added to users.txt file.
+2025-09-07 20:00:04,641 - root - INFO - User alice logged in successfully.
+2025-09-07 20:00:04,641 - root - WARNING - Login failed for user bob. Incorrect username or password.
+2025-09-07 20:00:04,641 - root - WARNING - Login failed for user charlie. Incorrect username or password.

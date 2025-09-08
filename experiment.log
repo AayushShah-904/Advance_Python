@@ -1,0 +1,5 @@
+2025-09-02 16:51:59,866 - experiment_logger - DEBUG - This is a debug message.
+2025-09-02 16:51:59,867 - experiment_logger - INFO - This is an info message.
+2025-09-02 16:51:59,867 - experiment_logger - WARNING - This is a warning message.
+2025-09-02 16:51:59,867 - experiment_logger - ERROR - This is an error message.
+2025-09-02 16:51:59,867 - experiment_logger - CRITICAL - This is a critical message.

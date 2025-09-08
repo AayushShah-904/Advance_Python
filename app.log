@@ -1,0 +1,9 @@
+2025-09-02 17:00:58,930 - INFO - Application started.
+2025-09-02 17:00:58,930 - INFO - Attempting to read file: input.txt
+2025-09-02 17:00:58,930 - ERROR - File not found: input.txt
+2025-09-02 17:00:58,931 - INFO - Starting data processing...
+2025-09-02 17:00:58,931 - WARNING - No data provided for processing.
+2025-09-02 17:00:58,931 - INFO - Calling external API: https://dummyapi.com/data
+2025-09-02 17:00:58,931 - DEBUG - API response: {'status': 'success', 'data': [1, 2, 3]}
+2025-09-02 17:00:58,932 - INFO - Application finished in 0.00 seconds
+2025-09-02 17:00:58,932 - INFO - User requested results display
