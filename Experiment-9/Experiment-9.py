@@ -50,17 +50,39 @@ features_scaled = scaler.fit_transform(features)
 kmeans = KMeans(n_clusters=3, random_state=42)
 kmeans.fit(features_scaled)
 df['Cluster'] = kmeans.labels_
+
+df_clustered = df.loc[features.index].copy()
+df_clustered['Cluster'] = kmeans.labels_
 print(df[['Quantity', 'UnitPrice', 'Cluster']].head())
 # Visualizing the clusters
 plt.figure(figsize=(10,6))
 sns.scatterplot(data=df, x='Quantity', y='UnitPrice', hue='Cluster', palette='Set1')
 plt.title('KMeans Clustering of Customers')
 plt.show()
+
 # Insights from clusters
 cluster_insights = df.groupby('Cluster').agg({'Quantity':'mean', 'UnitPrice':'mean', 'CustomerID':'nunique'}).reset_index()
 print("Cluster Insights:")
 print(cluster_insights)
 
+
+# Create a figure with two subplots (1 row, 2 columns)
+fig, axes = plt.subplots(1, 2, figsize=(18, 8))
+fig.suptitle('Customer Data Visualization: Before and After Clustering', fontsize=16)
+
+# Plot 1: Before Clustering
+sns.scatterplot(ax=axes[0], data=df, x='Quantity', y='UnitPrice', alpha=0.6)
+axes[0].set_title('Before Clustering')
+axes[0].set_xlabel('Quantity')
+axes[0].set_ylabel('UnitPrice')
+
+# Plot 2: After Clustering
+sns.scatterplot(ax=axes[1], data=df_clustered, x='Quantity', y='UnitPrice', hue='Cluster', palette='Set1', alpha=0.8)
+axes[1].set_title('After K-Means Clustering')
+axes[1].set_xlabel('Quantity')
+axes[1].set_ylabel('UnitPrice')
+
+plt.show()
 
 # visualization-scatter plot,bar chart
 print("------------------------------------------------visualization-scatter plot,bar chart----------------------------------------------")

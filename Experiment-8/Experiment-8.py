@@ -45,7 +45,7 @@ img_saturated.show()
 img_saturated.save('sample_saturated.jpg')
 
 
-# #Convert image to grayscale
+#Convert image to grayscale
 img_convert=img.convert('L')
 img_convert.show()
 img_convert.save('sample_gray.jpg')
