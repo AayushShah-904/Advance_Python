@@ -1,0 +1,49 @@
+Name,Date,Description,Amount,Category
+Aayush,2025-10-01,"Milk, bread, eggs",75.50,Groceries
+Priya,2025-10-01,Bus fare,20.00,Transportation
+Rohan,2025-10-02,Lunch with friends,45.00,Dining Out
+Aayush,2025-10-03,Electricity bill,150.00,Utilities
+Meet,2025-10-31,Cab fare,30.00,Transportation
+Priya,2025-10-03,Movie ticket,30.00,Entertainment
+Rohan,2025-10-04,New shoes,120.00,Shopping
+Aayush,2025-10-05,"Fruits and vegetables",60.25,Groceries
+Priya,2025-10-06,Pharmacy,50.00,Health
+Rohan,2025-10-07,Subway pass,15.00,Transportation
+Aayush,2025-10-08,Dinner date,80.00,Dining Out
+Priya,2025-10-09,Internet bill,70.00,Utilities
+Meet,2025-10-30,Movie,20.00,Entertainment
+Meet,2025-10-31,Cab fare,30.00,Transportation
+Aayush,2025-11-01,"Groceries for the week",85.20,Groceries
+Priya,2025-11-02,Monthly bus pass,60.00,Transportation
+Rohan,2025-11-03,Dinner with colleagues,75.50,Dining Out
+Meet,2025-11-04,Phone bill,50.00,Utilities
+Aayush,2025-11-05,New headphones,150.00,Shopping
+Priya,2025-11-06,Yoga class fee,40.00,Health
+Rohan,2025-11-07,Weekend trip,250.00,Travel
+Meet,2025-11-08,Lunch,22.00,Dining Out
+Aayush,2025-11-10,Streaming service subscription,15.00,Entertainment
+Priya,2025-11-12,Birthday gift,50.00,Gifts
+Rohan,2025-11-15,Home repairs,120.00,Home Maintenance
+Meet,2025-11-18,Book purchase,25.00,Education
+Aayush,2025-12-01,Christmas shopping,300.00,Shopping
+Priya,2025-12-02,Charity donation,50.00,Charity
+Rohan,2025-12-05,Holiday party contribution,40.00,Dining Out
+Meet,2025-12-08,Winter clothes,180.00,Shopping
+Aayush,2025-12-10,Heating bill,100.00,Utilities
+Priya,2025-12-15,Groceries for Christmas,150.00,Groceries
+Rohan,2025-12-20,Travel for holidays,400.00,Travel
+Meet,2025-12-24,Last minute gifts,75.00,Gifts
+Aayush,2025-12-25,Christmas dinner,120.00,Dining Out
+Priya,2026-01-02,New Year's gym membership,60.00,Health
+Rohan,2026-01-05,Car insurance,200.00,Insurance
+Meet,2026-01-08,Textbooks,100.00,Education
+Aayush,2026-01-10,Savings deposit,500.00,Savings
+Priya,2026-01-12,Internet upgrade,20.00,Utilities
+Rohan,2026-01-15,Stock investment,300.00,Investments
+Meet,2026-01-18,Concert ticket,80.00,Entertainment
+Aayush,2026-01-20,Dental check-up,75.00,Health
+Priya,2026-01-22,Car maintenance,150.00,Transportation
+Rohan,2026-01-25,Subscription box,40.00,Subscriptions
+Meet,2026-01-28,Miscellaneous items,80.00,Miscellaneous
+Aayush,2026-01-30,Rent,1200.00,Rent
+
