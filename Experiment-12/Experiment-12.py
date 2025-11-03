@@ -1,27 +1,16 @@
-try:
-    import pandas as pd
-    import matplotlib.pyplot as plt
-except ImportError:
-    print("Please install pandas and matplotlib using: pip install pandas matplotlib")
-    exit()
-
+import pandas as pd
+import matplotlib.pyplot as plt
 import os
 import shutil
 from datetime import datetime
 
-EXPENSES_FILE = 'expenses.csv'
-BUDGET_FILE = 'budget.csv'
-BACKUP_DIR = 'backup'
+EXPENSES_FILE = os.path.join('Experiment-12', 'expenses.csv')
+BUDGET_FILE = os.path.join('Experiment-12', 'budget.csv')
+BACKUP_DIR = os.path.join('Experiment-12', 'backup')
 
 def log_expense():
-    """Logs a new expense to the expenses.csv file."""
     name = input("Enter your name: ")
-    date_str = input("Enter date (YYYY-MM-DD): ")
-    try:
-        date = datetime.strptime(date_str, '%Y-%m-%d').date()
-    except ValueError:
-        print("Invalid date format. Please use YYYY-MM-DD.")
-        return
+    date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     description = input("Enter description: ")
     try:
         amount = float(input("Enter amount: "))
@@ -32,11 +21,11 @@ def log_expense():
 
     new_expense = pd.DataFrame([[name, date, description, amount, category]],
                                columns=['Name', 'Date', 'Description', 'Amount', 'Category'])
+    
     new_expense.to_csv(EXPENSES_FILE, mode='a', header=False, index=False)
     print("Expense logged successfully.")
 
 def analyze_expenses():
-    """Analyzes expenses from expenses.csv."""
     try:
         expenses_df = pd.read_csv(EXPENSES_FILE)
     except FileNotFoundError:
@@ -60,7 +49,6 @@ def analyze_expenses():
     print(f"\nAverage Daily Household Expense: {average_daily_expense:.2f}")
 
 def plot_expense_trends():
-    """Plots expense trends over the last month."""
     try:
         expenses_df = pd.read_csv(EXPENSES_FILE)
     except FileNotFoundError:
@@ -88,7 +76,6 @@ def plot_expense_trends():
     plt.show()
 
 def generate_monthly_report():
-    """Generates a monthly expense report."""
     try:
         expenses_df = pd.read_csv(EXPENSES_FILE)
     except FileNotFoundError:
@@ -102,7 +89,6 @@ def generate_monthly_report():
     expenses_df['Date'] = pd.to_datetime(expenses_df['Date'])
     expenses_df['Month'] = expenses_df['Date'].dt.to_period('M')
 
-    # For simplicity, report on the latest month
     latest_month = expenses_df['Month'].max()
     monthly_df = expenses_df[expenses_df['Month'] == latest_month]
 
@@ -124,7 +110,7 @@ def generate_monthly_report():
 
     # Comparison of monthly expenses over different months using bar charts
     monthly_totals = expenses_df.groupby('Month')['Amount'].sum()
-    monthly_totals.index = monthly_totals.index.astype(str)
+    #monthly_totals.index = monthly_totals.index.astype(str)
     
     plt.figure(figsize=(10, 5))
     monthly_totals.plot(kind='bar')
@@ -136,7 +122,6 @@ def generate_monthly_report():
     plt.show()
 
 def manage_budget():
-    """Manages and checks budget against expenses."""
     try:
         budget_df = pd.read_csv(BUDGET_FILE)
         expenses_df = pd.read_csv(EXPENSES_FILE)
@@ -171,7 +156,7 @@ def manage_budget():
         print(exceeded_budget)
 
 def backup_data():
-    """Backs up the expenses.csv file."""
+
     if not os.path.exists(BACKUP_DIR):
         os.makedirs(BACKUP_DIR)
     
@@ -181,32 +166,6 @@ def backup_data():
         print(f"Backup successful: {backup_file_path}")
     else:
         print(f"{EXPENSES_FILE} not found. Nothing to backup.")
-
-def restore_data():
-    """Restores the expenses.csv file from a backup."""
-    if not os.path.exists(BACKUP_DIR):
-        print("Backup directory not found.")
-        return
-
-    backups = [f for f in os.listdir(BACKUP_DIR) if f.startswith('expenses_backup_') and f.endswith('.csv')]
-    if not backups:
-        print("No backups found.")
-        return
-
-    print("Available backups:")
-    for i, backup in enumerate(backups):
-        print(f"{i + 1}. {backup}")
-
-    try:
-        choice = int(input("Select a backup to restore: ")) - 1
-        if 0 <= choice < len(backups):
-            backup_to_restore = os.path.join(BACKUP_DIR, backups[choice])
-            shutil.copy(backup_to_restore, EXPENSES_FILE)
-            print(f"Restored from {backups[choice]}")
-        else:
-            print("Invalid selection.")
-    except ValueError:
-        print("Invalid input.")
 
 def main_menu():
     """Displays the main menu and handles user choices."""
@@ -218,8 +177,7 @@ def main_menu():
         print("4. Generate Monthly Report")
         print("5. Manage Budget")
         print("6. Backup Data")
-        print("7. Restore Data")
-        print("8. Exit")
+        print("7. Exit")
         choice = input("Enter your choice: ")
 
         if choice == '1':
@@ -235,14 +193,12 @@ def main_menu():
         elif choice == '6':
             backup_data()
         elif choice == '7':
-            restore_data()
-        elif choice == '8':
             break
         else:
             print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
-    # Check if data files exist, if not create them with headers
+    
     if not os.path.exists(EXPENSES_FILE):
         pd.DataFrame(columns=['Name', 'Date', 'Description', 'Amount', 'Category']).to_csv(EXPENSES_FILE, index=False)
     if not os.path.exists(BUDGET_FILE):
